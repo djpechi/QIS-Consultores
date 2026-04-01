@@ -1263,6 +1263,45 @@ button {
   transform: translateY(-2px);
 }
 
+/* --- Logo Ribbon (Post-Hero) --- */
+.logo-ribbon {
+  background: var(--navy-900);
+  padding: var(--space-4) 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.logo-ribbon .marquee__logo {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.logo-ribbon .marquee:hover .marquee__logo {
+  opacity: 0.9;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.logo-ribbon .marquee__dot {
+  color: var(--blue-400);
+  opacity: 0.3;
+}
+
+.logo-ribbon .marquee::before {
+  background: linear-gradient(to right, var(--navy-900), transparent);
+}
+
+.logo-ribbon .marquee::after {
+  background: linear-gradient(to left, var(--navy-900), transparent);
+}
+
+.logo-ribbon .marquee__logo-img {
+  filter: grayscale(100%) brightness(2);
+  opacity: 0.5;
+}
+
+.logo-ribbon .marquee:hover .marquee__logo-img {
+  filter: grayscale(0%) brightness(1.2);
+  opacity: 0.9;
+}
+
 /* --- Marquee (Infinite Scroll Logo Ribbon) --- */
 @keyframes marquee-scroll {
   0% { transform: translateX(0); }
