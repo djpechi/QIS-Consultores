@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>OG Image Generator</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,700;1,600;1,700&display=swap');
+  
+  body { 
+    width: 1200px; 
+    height: 630px; 
+    overflow: hidden;
+    background: linear-gradient(135deg, #151d4a, #1E2761 50%, #2a3580);
+    font-family: 'Inter', sans-serif;
+    position: relative;
+  }
+
+  /* Subtle grid */
+  body::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: 
+      linear-gradient(rgba(202,220,252,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(202,220,252,0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  /* Top accent line */
+  .accent-line {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 5px;
+    background: linear-gradient(90deg, #4169E1, #CADCFC);
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    padding: 60px 80px;
+  }
+
+  .logo-area {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+
+  .bar-icon {
+    display: flex;
+    gap: 2px;
+    align-items: flex-end;
+    height: 60px;
+  }
+  .bar-icon span {
+    width: 8px;
+    background: rgba(202,220,252,0.5);
+    border-radius: 2px;
+  }
+  .bar-icon span:nth-child(1) { height: 60px; }
+  .bar-icon span:nth-child(2) { height: 45px; }
+  .bar-icon span:nth-child(3) { height: 55px; }
+
+  .qis-text {
+    font-size: 88px;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: -2px;
+    line-height: 1;
+  }
+
+  .subtitle {
+    font-size: 22px;
+    font-weight: 300;
+    color: #CADCFC;
+    margin-bottom: 16px;
+  }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 18px;
+    padding: 8px 20px;
+    margin-bottom: 32px;
+  }
+  .badge .dot {
+    width: 10px;
+    height: 10px;
+    background: #22c55e;
+    border-radius: 50%;
+  }
+  .badge span {
+    font-size: 13px;
+    font-weight: 600;
+    color: #CADCFC;
+    letter-spacing: 1px;
+  }
+
+  .headline {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.15;
+    margin-bottom: 0;
+  }
+  .headline .line1, .headline .line2 {
+    font-size: 54px;
+    display: block;
+  }
+  .headline .line3 {
+    font-size: 58px;
+    color: #CADCFC;
+    display: block;
+  }
+
+  /* Decorative circles */
+  .circles {
+    position: absolute;
+    right: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .circles .circle {
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid rgba(202,220,252,0.04);
+  }
+  .circles .c1 { width: 400px; height: 400px; top: -200px; left: -200px; }
+  .circles .c2 { width: 300px; height: 300px; top: -150px; left: -150px; }
+  .circles .c3 { width: 200px; height: 200px; top: -100px; left: -100px; }
+
+  /* Bottom bar */
+  .bottom-bar {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 50px;
+    background: rgba(255,255,255,0.05);
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+  }
+  .bottom-bar span {
+    font-size: 15px;
+    color: rgba(202,220,252,0.7);
+    font-weight: 400;
+  }
+</style>
+</head>
+<body>
+  <div class="accent-line"></div>
+  
+  <div class="content">
+    <div class="logo-area">
+      <div class="bar-icon">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="qis-text">QIS</div>
+    </div>
+    
+    <div class="subtitle">Quality Improvement Solutions</div>
+    
+    <div class="badge">
+      <div class="dot"></div>
+      <span>APPROVED GM TRAINING & AUDITING PARTNER</span>
+    </div>
+    
+    <div class="headline">
+      <span class="line1">When Your Supplier</span>
+      <span class="line2">Is in Crisis,</span>
+      <span class="line3">Every Hour Costs Millions.</span>
+    </div>
+  </div>
+
+  <div class="circles">
+    <div class="circle c1"></div>
+    <div class="circle c2"></div>
+    <div class="circle c3"></div>
+  </div>
+
+  <div class="bottom-bar">
+    <span>qis-consultores.onrender.com &nbsp;•&nbsp; DUNS: 951594008 &nbsp;•&nbsp; GM &nbsp;•&nbsp; Ford &nbsp;•&nbsp; Stellantis &nbsp;•&nbsp; Bosch &nbsp;•&nbsp; Continental</span>
+  </div>
+</body>
+</html>
