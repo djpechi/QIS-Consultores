@@ -102,7 +102,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 28px;
+  padding: 8px 20px;
   background: var(--op-navy-700);
   position: relative;
   z-index: 1;
@@ -115,13 +115,13 @@ img {
 }
 
 .op-logo {
-  height: 32px;
+  height: 28px;
   width: auto;
 }
 
 .op-header__name {
   font-family: var(--op-font-body);
-  font-size: 13pt;
+  font-size: 11pt;
   font-weight: 700;
   color: var(--op-white);
   letter-spacing: -0.02em;
@@ -164,8 +164,8 @@ img {
 .op-hero {
   display: flex;
   align-items: center;
-  gap: 20px;
-  padding: 22px 28px 18px;
+  gap: 16px;
+  padding: 14px 20px 12px;
   background: linear-gradient(135deg, var(--op-navy-900) 0%, var(--op-navy-700) 100%);
   position: relative;
 }
@@ -186,11 +186,11 @@ img {
 
 .op-hero__title {
   font-family: var(--op-font-display);
-  font-size: 18pt;
+  font-size: 15pt;
   font-weight: 700;
   line-height: 1.15;
   color: var(--op-white);
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .op-hero__title em {
@@ -199,9 +199,9 @@ img {
 }
 
 .op-hero__subtitle {
-  font-size: 7.5pt;
+  font-size: 7pt;
   color: rgba(255, 255, 255, 0.65);
-  line-height: 1.5;
+  line-height: 1.4;
   max-width: 380px;
 }
 
@@ -214,25 +214,25 @@ img {
 .op-hero__stat-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 8px;
+  gap: 5px;
 }
 
 .op-mini-stat {
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 8px;
-  padding: 10px 12px;
+  border-radius: 6px;
+  padding: 6px 8px;
   text-align: center;
 }
 
 .op-mini-stat__number {
   display: block;
   font-family: var(--op-font-display);
-  font-size: 16pt;
+  font-size: 13pt;
   font-weight: 700;
   color: var(--op-blue-300);
   line-height: 1;
-  margin-bottom: 2px;
+  margin-bottom: 1px;
 }
 
 .op-mini-stat__label {
@@ -249,32 +249,32 @@ img {
    ============================================ */
 .op-section-label {
   font-family: var(--op-font-body);
-  font-size: 6pt;
+  font-size: 5.5pt;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.14em;
   color: var(--op-blue-500);
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 /* ============================================
    SERVICES
    ============================================ */
 .op-services {
-  padding: 18px 28px 14px;
+  padding: 10px 20px 8px;
 }
 
 .op-services__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 14px;
+  gap: 8px;
 }
 
 .op-service {
   background: var(--op-gray-50);
   border: 1px solid var(--op-gray-200);
-  border-radius: 8px;
-  padding: 12px;
+  border-radius: 6px;
+  padding: 8px;
   position: relative;
 }
 
@@ -292,15 +292,15 @@ img {
 .op-service__header {
   display: flex;
   align-items: center;
-  gap: 8px;
-  margin-bottom: 8px;
+  gap: 6px;
+  margin-bottom: 4px;
 }
 
 .op-service__icon {
-  width: 28px;
-  height: 28px;
+  width: 22px;
+  height: 22px;
   background: var(--op-ice-light);
-  border-radius: 6px;
+  border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -308,8 +308,8 @@ img {
 }
 
 .op-service__icon svg {
-  width: 14px;
-  height: 14px;
+  width: 12px;
+  height: 12px;
   color: var(--op-navy-700);
 }
 
@@ -336,10 +336,10 @@ img {
 
 .op-service__list li {
   position: relative;
-  padding-left: 10px;
-  font-size: 6.5pt;
+  padding-left: 8px;
+  font-size: 6pt;
   color: var(--op-gray-600);
-  line-height: 1.6;
+  line-height: 1.45;
 }
 
 .op-service__list li::before {
@@ -354,7 +354,7 @@ img {
    CLIENT LOGOS
    ============================================ */
 .op-clients {
-  padding: 8px 28px;
+  padding: 6px 20px;
   background: var(--op-navy-900);
 }
 
@@ -399,7 +399,7 @@ img {
    METHODOLOGY
    ============================================ */
 .op-methodology {
-  padding: 16px 28px 12px;
+  padding: 8px 20px 6px;
 }
 
 .op-methodology__steps {
@@ -411,21 +411,21 @@ img {
 .op-step {
   flex: 1;
   display: flex;
-  gap: 6px;
+  gap: 4px;
   align-items: flex-start;
   background: var(--op-gray-50);
   border: 1px solid var(--op-gray-200);
-  border-radius: 6px;
-  padding: 8px;
+  border-radius: 5px;
+  padding: 5px 6px;
 }
 
 .op-step__num {
-  width: 22px;
-  height: 22px;
+  width: 18px;
+  height: 18px;
   background: var(--op-navy-700);
   color: var(--op-white);
   font-family: var(--op-font-display);
-  font-size: 10pt;
+  font-size: 8pt;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -436,23 +436,23 @@ img {
 }
 
 .op-step__info h4 {
-  font-size: 7pt;
+  font-size: 6.5pt;
   font-weight: 700;
   color: var(--op-navy-700);
-  margin-bottom: 1px;
+  margin-bottom: 0;
 }
 
 .op-step__info p {
-  font-size: 5.5pt;
+  font-size: 5pt;
   color: var(--op-gray-500);
-  line-height: 1.35;
+  line-height: 1.25;
 }
 
 .op-step__arrow {
   display: flex;
   align-items: center;
   color: var(--op-blue-400);
-  font-size: 10pt;
+  font-size: 8pt;
   font-weight: 300;
   flex-shrink: 0;
 }
@@ -531,8 +531,8 @@ img {
    ============================================ */
 .op-bottom {
   display: flex;
-  gap: 20px;
-  padding: 14px 28px 12px;
+  gap: 14px;
+  padding: 8px 20px 6px;
   flex: 1;
 }
 
@@ -543,16 +543,16 @@ img {
 .op-team__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 6px;
+  gap: 4px;
 }
 
 .op-member {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 6px;
+  gap: 6px;
+  padding: 4px 5px;
   background: var(--op-gray-50);
-  border-radius: 6px;
+  border-radius: 5px;
   border: 1px solid var(--op-gray-100);
 }
 
@@ -572,15 +572,15 @@ img {
 }
 
 .op-member__info strong {
-  font-size: 7pt;
+  font-size: 6.5pt;
   color: var(--op-navy-700);
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 .op-member__info span {
-  font-size: 5.5pt;
+  font-size: 5pt;
   color: var(--op-gray-500);
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 /* Standards */
@@ -591,18 +591,18 @@ img {
 .op-standards__list {
   display: flex;
   flex-wrap: wrap;
-  gap: 4px;
+  gap: 3px;
 }
 
 .op-std {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
-  padding: 3px 8px;
+  gap: 3px;
+  padding: 2px 6px;
   background: var(--op-white);
   border: 1px solid var(--op-gray-200);
   border-radius: 100px;
-  font-size: 6pt;
+  font-size: 5.5pt;
   font-weight: 600;
   color: var(--op-navy-700);
 }
@@ -614,8 +614,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
-  padding: 10px 28px;
+  gap: 18px;
+  padding: 7px 20px;
   background: var(--op-navy-700);
   margin-top: auto;
 }
@@ -646,14 +646,57 @@ img {
 
   .page {
     box-shadow: none;
-    width: 100%;
-    height: 100%;
-    min-height: auto;
-    max-height: none;
+    width: 8.5in;
+    height: 11in;
+    min-height: 11in;
+    max-height: 11in;
+    overflow: hidden;
+    transform: scale(0.97);
+    transform-origin: top center;
   }
 
   @page {
     size: letter portrait;
     margin: 0;
   }
+
+  /* Additional print compression to guarantee 1-page fit */
+  .op-header { padding: 6px 16px; }
+  .op-logo { height: 24px; }
+  .op-header__name { font-size: 10pt; }
+  .op-hero { padding: 10px 16px 8px; gap: 12px; }
+  .op-hero__title { font-size: 14pt; margin-bottom: 3px; }
+  .op-hero__subtitle { font-size: 6.5pt; line-height: 1.3; }
+  .op-mini-stat { padding: 4px 6px; border-radius: 5px; }
+  .op-mini-stat__number { font-size: 11pt; }
+  .op-mini-stat__label { font-size: 5pt; }
+  .op-hero__stat-grid { gap: 3px; }
+  .op-services { padding: 6px 16px 5px; }
+  .op-services__grid { gap: 6px; }
+  .op-service { padding: 6px; border-radius: 5px; }
+  .op-service__header { margin-bottom: 3px; gap: 5px; }
+  .op-service__icon { width: 18px; height: 18px; }
+  .op-service__icon svg { width: 10px; height: 10px; }
+  .op-service__type { font-size: 5pt; }
+  .op-service__title { font-size: 7.5pt; }
+  .op-service__list li { font-size: 5.5pt; line-height: 1.35; padding-left: 7px; }
+  .op-clients { padding: 5px 16px; }
+  .op-client-logo { height: 16px; }
+  .op-client-text { font-size: 6pt; }
+  .op-methodology { padding: 5px 16px 4px; }
+  .op-step { padding: 4px 5px; }
+  .op-step__num { width: 16px; height: 16px; font-size: 7pt; }
+  .op-step__info h4 { font-size: 6pt; }
+  .op-step__info p { font-size: 4.5pt; line-height: 1.2; }
+  .op-step__arrow { font-size: 7pt; }
+  .op-section-label { font-size: 5pt; margin-bottom: 4px; }
+  .op-bottom { padding: 5px 16px 4px; gap: 10px; }
+  .op-team__grid { gap: 3px; }
+  .op-member { padding: 3px 4px; }
+  .op-member__info strong { font-size: 6pt; }
+  .op-member__info span { font-size: 4.5pt; line-height: 1.15; }
+  .op-standards__list { gap: 2px; }
+  .op-std { padding: 1px 5px; font-size: 5pt; }
+  .op-footer { padding: 5px 16px; gap: 14px; }
+  .op-footer__item { font-size: 5.5pt; }
 }
